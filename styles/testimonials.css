@@ -1,0 +1,28 @@
+.testimonials {
+  text-align: center;
+}
+
+.testimonials__title {
+  font-family: "Fraunces", Courier, monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+}
+
+.testimonials__cards {
+  display: flex;
+  padding: 0 6rem;
+}
+
+.testimonials__card {
+  padding: 1rem;
+}
+
+.testimonials__card img {
+  border-radius: 50%;
+}
+
+.testimonials__card p {
+  padding: 2rem 0;
+}

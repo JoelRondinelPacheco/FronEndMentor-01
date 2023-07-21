@@ -1,0 +1,25 @@
+footer {
+  background-color: var(--color-moderate-cyan);
+  text-align: center;
+}
+
+.footer__img {
+  padding-top: 3rem;
+}
+
+.options ul {
+  list-style: none;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.icons {
+  display: flex;
+  padding: 2rem 0;
+
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}

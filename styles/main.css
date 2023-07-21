@@ -1,0 +1,83 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  margin: 0;
+}
+
+.card__info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 5rem;
+  box-sizing: border-box;
+}
+
+.card__title {
+  font-family: "Fraunces", Courier, monospace;
+  color: var(--color-very-dark-desaturated-blue);
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.card__p {
+  font-family: "Barlow", Courier, monospace;
+  color: var(--color-moderate-cyan);
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.card__link {
+  font-family: "Fraunces", Courier, monospace;
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+.card__img {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.card__img img {
+  width: 100%;
+}
+
+.card-bg {
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+}
+
+.card__info-bg {
+  width: 55%;
+  padding: 0 5rem;
+  padding-top: 20rem;
+  padding-bottom: 4rem;
+  text-align: center;
+}
+
+.card__title-photo {
+  color: var(--color-dark-blue);
+  font-size: 2rem;
+}
+
+.photography {
+  background-image: url("../images/desktop/image-photography.jpg");
+  color: var(--color-dark-blue);
+}
+
+.graphic-design {
+  background-image: url("../images/desktop/image-graphic-design.jpg");
+}
+
+.card__title-graph {
+  color: var(--color-dark-desaturated-cyan);
+  font-size: 2rem;
+}
